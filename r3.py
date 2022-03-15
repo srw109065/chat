@@ -8,5 +8,4 @@ for line in lines:
 	s = line.split(" ")
 	time = s[0][:5]
 	name = s[0][5:]
-	print("時間", time)
-	print("人名", name)
+	print("時間", time, "人名", name)
